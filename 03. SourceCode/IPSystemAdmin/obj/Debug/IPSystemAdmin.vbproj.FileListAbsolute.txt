@@ -1,0 +1,189 @@
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPSystemAdmin.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPSystemAdmin.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPSystemAdmin.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\C1.Common.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPBusinessService.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPCommon.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPData.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPException.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPUserService.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\SiSButton.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\SiSMenu.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPBusinessService.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPBusinessService.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPCommon.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPCommon.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPData.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPData.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPException.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPException.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPUserService.pdb
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\bin\IPUserService.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+C:\Users\AnZVanie\Documents\Visual Studio 2010\Projects\BKI_HRM\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Common.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSButton.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSMenu.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.pdb
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+G:\Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Common.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSButton.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSMenu.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.pdb
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+G:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Common.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSButton.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\SiSMenu.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPCommon.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPData.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPException.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\IPUserService.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll.licenses
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.DS.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.US.dll
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.DS.pdb
+F:\01. Work\Project\BKI_HRM\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.US.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPSystemAdmin.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.DS.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\C1.Common.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.Classic.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\C1.Win.C1FlexGrid.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPCommon.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPData.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPException.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPUserService.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\SiSButton.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\SiSMenu.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Shared.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.Windows.Forms.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\CrystalDecisions.ReportSource.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPBusinessService.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPCommon.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPCommon.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPData.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPData.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPException.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPException.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPUserService.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\IPUserService.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\bin\BKI_HRM.DS.pdb
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbprojResolveAssemblyReference.cache
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f100_TuDien.resources
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f101_Dang_Nhap.resources
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f102_TuDien_DE.resources
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IP.Core.IPSystemAdmin.f996_license.resources
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.vbproj.GenerateResource.Cache
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.dll
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.xml
+D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPSystemAdmin\obj\Debug\IPSystemAdmin.pdb

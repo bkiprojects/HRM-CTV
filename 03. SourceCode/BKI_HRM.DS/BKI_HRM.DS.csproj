@@ -1,0 +1,1122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4AEBA63F-E5B5-4D0C-B1B5-E6BCB13E1B5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BKI_HRM.DS</RootNamespace>
+    <AssemblyName>BKI_HRM.DS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CDBNames.cs" />
+    <Compile Include="DS_CM_DM_TU_DIEN.cs">
+      <DependentUpon>DS_CM_DM_TU_DIEN.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DS_CM_DM_TU_DIEN.Designer.cs">
+      <DependentUpon>DS_CM_DM_TU_DIEN.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DS_DM_CAP_BAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_CAP_BAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_CHUC_VU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_CHUC_VU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_DON_VI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_DON_VI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_DU_AN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_DU_AN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_HEADCOUNT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_HEADCOUNT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_KY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_KY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_NHAN_SU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_NHAN_SU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_NHAN_SU_1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_NHAN_SU_1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_PHAP_NHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_PHAP_NHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_QUYET_DINH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_QUYET_DINH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_DM_TRANG_THAI_UNG_VIEN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_CHI_TIET_CAP_BAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_CHI_TIET_CHUC_VU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_CHI_TIET_DU_AN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CHI_TIET_DU_AN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_CHI_TIET_TRANG_THAI_LD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CHI_TIET_TRANG_THAI_LD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_CONG_TAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CONG_TAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_DON_VI_PHAP_NHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_DON_VI_PHAP_NHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_HOP_DONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_HOP_DONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_LUONG_THEO_QD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_QUA_TRINH_CONG_TAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_QUA_TRINH_CONG_TAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_QUYET_DINH_DU_AN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_QUYET_DINH_DU_AN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_QUYET_DINH_PHAP_NHAN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_QUYET_DINH_PHAP_NHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_CHUC_NANG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_CHUC_NANG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_FORM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_FORM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_LOGIN_WEB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_LOGIN_WEB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_NGUOI_SU_DUNG_WEB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_NGUOI_SU_DUNG_WEB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_PHAN_QUYEN_CHO_NHOM1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_PHAN_QUYEN_CHO_NHOM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_PHAN_QUYEN_DETAIL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_PHAN_QUYEN_DETAIL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_PHAN_QUYEN_HE_THONG1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_PHAN_QUYEN_HE_THONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_QUYEN_GROUP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_QUYEN_GROUP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_QUYEN_USER_WEB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_QUYEN_USER_WEB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_USER.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_USER.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_USER_GROUP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_USER_GROUP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_IMPORT_EXCEL_LUONG_THEO_QD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_IMPORT_EXCEL_LUONG_THEO_QD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_BO_NHIEM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_BO_NHIEM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_CHUC_VU_TRANG_THAI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_CHUC_VU_TRANG_THAI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_DON_VI_TRANG_THAI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_DON_VI_TRANG_THAI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_HT_USER_GROUP_WEB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_HT_USER_GROUP_WEB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_LUONG_DON_VI_THEO_KY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_LUONG_DON_VI_THEO_KY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_LUONG_THEO_QD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_LUONG_THEO_QD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_NHAN_SU_PERFECT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_NHAN_SU_PERFECT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_SO_LUONG_NV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_SO_LUONG_NV.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_SO_LUONG_NV_THEO_LOAI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_SO_LUONG_NV_THEO_LOAI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_RPT_TONG_LUONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_RPT_TONG_LUONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_CAP_BAC.cs">
+      <DependentUpon>DS_V_DM_CAP_BAC.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DS_V_DM_CAP_BAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_CAP_BAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_CHUC_VU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_CHUC_VU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_DON_VI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_DON_VI.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_DU_LIEU_NHAN_VIEN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_DU_LIEU_NHAN_VIEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_NHAN_SU.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_NHAN_SU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_NHAN_SU_DU_AN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_NHAN_SU_DU_AN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_QUYET_DINH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_QUYET_DINH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_DM_TRANG_THAI_UNG_VIEN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_BAO_CAO_DU_AN_2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_BAO_CAO_DU_AN_2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_CHI_TIET_CAP_BAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_CONG_TAC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_CONG_TAC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_HOP_DONG_LAO_DONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_HOP_DONG_LAO_DONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_LUONG_THEO_QD.cs">
+      <DependentUpon>DS_V_GD_LUONG_THEO_QD.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DS_V_GD_LUONG_THEO_QD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_QUA_TRINH_LAM_VIEC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_QUA_TRINH_LAM_VIEC_2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC_2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_QUYET_DINH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_QUYET_DINH.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_GD_TRANG_THAI_LAO_DONG.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_GD_TRANG_THAI_LAO_DONG.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_V_HT_CONTROL_IN_FORM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_V_HT_CONTROL_IN_FORM.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DS_CM_DM_TU_DIEN.xsc">
+      <DependentUpon>DS_CM_DM_TU_DIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_CM_DM_TU_DIEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_CM_DM_TU_DIEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_CM_DM_TU_DIEN.xss">
+      <DependentUpon>DS_CM_DM_TU_DIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CAP_BAC.xsc">
+      <DependentUpon>DS_DM_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CAP_BAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_CAP_BAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_CAP_BAC.xss">
+      <DependentUpon>DS_DM_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CHUC_VU.xsc">
+      <DependentUpon>DS_DM_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CHUC_VU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_CHUC_VU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_CHUC_VU.xss">
+      <DependentUpon>DS_DM_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_DON_VI.xsc">
+      <DependentUpon>DS_DM_DON_VI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_DON_VI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_DON_VI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_DON_VI.xss">
+      <DependentUpon>DS_DM_DON_VI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_DU_AN.xsc">
+      <DependentUpon>DS_DM_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_DU_AN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_DU_AN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_DU_AN.xss">
+      <DependentUpon>DS_DM_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_HEADCOUNT.xsc">
+      <DependentUpon>DS_DM_HEADCOUNT.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_HEADCOUNT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_HEADCOUNT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_HEADCOUNT.xss">
+      <DependentUpon>DS_DM_HEADCOUNT.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_KY.xsc">
+      <DependentUpon>DS_DM_KY.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_KY.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_KY.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_KY.xss">
+      <DependentUpon>DS_DM_KY.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_NHAN_SU.xsc">
+      <DependentUpon>DS_DM_NHAN_SU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_NHAN_SU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_NHAN_SU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_NHAN_SU.xss">
+      <DependentUpon>DS_DM_NHAN_SU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_NHAN_SU_1.xsc">
+      <DependentUpon>DS_DM_NHAN_SU_1.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_NHAN_SU_1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_NHAN_SU_1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_NHAN_SU_1.xss">
+      <DependentUpon>DS_DM_NHAN_SU_1.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_PHAP_NHAN.xsc">
+      <DependentUpon>DS_DM_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_PHAP_NHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_PHAP_NHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_PHAP_NHAN.xss">
+      <DependentUpon>DS_DM_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_QUYET_DINH.xsc">
+      <DependentUpon>DS_DM_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_QUYET_DINH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_QUYET_DINH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_QUYET_DINH.xss">
+      <DependentUpon>DS_DM_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_TRANG_THAI_UNG_VIEN.xsc">
+      <DependentUpon>DS_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_TRANG_THAI_UNG_VIEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_TRANG_THAI_UNG_VIEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_TRANG_THAI_UNG_VIEN.xss">
+      <DependentUpon>DS_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CAP_BAC.xsc">
+      <DependentUpon>DS_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CAP_BAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CHI_TIET_CAP_BAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CAP_BAC.xss">
+      <DependentUpon>DS_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU.xsc">
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CHI_TIET_CHUC_VU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU.xss">
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_DU_AN.xsc">
+      <DependentUpon>DS_GD_CHI_TIET_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_DU_AN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CHI_TIET_DU_AN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CHI_TIET_DU_AN.xss">
+      <DependentUpon>DS_GD_CHI_TIET_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_TRANG_THAI_LD.xsc">
+      <DependentUpon>DS_GD_CHI_TIET_TRANG_THAI_LD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_TRANG_THAI_LD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CHI_TIET_TRANG_THAI_LD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CHI_TIET_TRANG_THAI_LD.xss">
+      <DependentUpon>DS_GD_CHI_TIET_TRANG_THAI_LD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CONG_TAC.xsc">
+      <DependentUpon>DS_GD_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CONG_TAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CONG_TAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CONG_TAC.xss">
+      <DependentUpon>DS_GD_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_DON_VI_PHAP_NHAN.xsc">
+      <DependentUpon>DS_GD_DON_VI_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_DON_VI_PHAP_NHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_DON_VI_PHAP_NHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_DON_VI_PHAP_NHAN.xss">
+      <DependentUpon>DS_GD_DON_VI_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_HOP_DONG.xsc">
+      <DependentUpon>DS_GD_HOP_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_HOP_DONG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_HOP_DONG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_HOP_DONG.xss">
+      <DependentUpon>DS_GD_HOP_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_LUONG_THEO_QD.xsc">
+      <DependentUpon>DS_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_LUONG_THEO_QD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_LUONG_THEO_QD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_LUONG_THEO_QD.xss">
+      <DependentUpon>DS_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUA_TRINH_CONG_TAC.xsc">
+      <DependentUpon>DS_GD_QUA_TRINH_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUA_TRINH_CONG_TAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_QUA_TRINH_CONG_TAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_QUA_TRINH_CONG_TAC.xss">
+      <DependentUpon>DS_GD_QUA_TRINH_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_DU_AN.xsc">
+      <DependentUpon>DS_GD_QUYET_DINH_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_DU_AN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_QUYET_DINH_DU_AN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_DU_AN.xss">
+      <DependentUpon>DS_GD_QUYET_DINH_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_PHAP_NHAN.xsc">
+      <DependentUpon>DS_GD_QUYET_DINH_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_PHAP_NHAN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_QUYET_DINH_PHAP_NHAN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_QUYET_DINH_PHAP_NHAN.xss">
+      <DependentUpon>DS_GD_QUYET_DINH_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_CHUC_NANG.xsc">
+      <DependentUpon>DS_HT_CHUC_NANG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_CHUC_NANG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_CHUC_NANG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_CHUC_NANG.xss">
+      <DependentUpon>DS_HT_CHUC_NANG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_FORM.xsc">
+      <DependentUpon>DS_HT_FORM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_FORM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_FORM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_FORM.xss">
+      <DependentUpon>DS_HT_FORM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_LOGIN_WEB.xsc">
+      <DependentUpon>DS_HT_LOGIN_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_LOGIN_WEB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_LOGIN_WEB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_LOGIN_WEB.xss">
+      <DependentUpon>DS_HT_LOGIN_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_NGUOI_SU_DUNG_WEB.xsc">
+      <DependentUpon>DS_HT_NGUOI_SU_DUNG_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_NGUOI_SU_DUNG_WEB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_NGUOI_SU_DUNG_WEB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_NGUOI_SU_DUNG_WEB.xss">
+      <DependentUpon>DS_HT_NGUOI_SU_DUNG_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_CHO_NHOM.xsc">
+      <DependentUpon>DS_HT_PHAN_QUYEN_CHO_NHOM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_CHO_NHOM.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_PHAN_QUYEN_CHO_NHOM1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_CHO_NHOM.xss">
+      <DependentUpon>DS_HT_PHAN_QUYEN_CHO_NHOM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_DETAIL.xsc">
+      <DependentUpon>DS_HT_PHAN_QUYEN_DETAIL.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_DETAIL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_PHAN_QUYEN_DETAIL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_DETAIL.xss">
+      <DependentUpon>DS_HT_PHAN_QUYEN_DETAIL.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_HE_THONG.xsc">
+      <DependentUpon>DS_HT_PHAN_QUYEN_HE_THONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_HE_THONG.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_PHAN_QUYEN_HE_THONG1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_HT_PHAN_QUYEN_HE_THONG.xss">
+      <DependentUpon>DS_HT_PHAN_QUYEN_HE_THONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xsc">
+      <DependentUpon>DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xss">
+      <DependentUpon>DS_HT_QUAN_HE_SU_DUNG_DU_LIEU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUYEN_GROUP.xsc">
+      <DependentUpon>DS_HT_QUYEN_GROUP.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUYEN_GROUP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_QUYEN_GROUP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_QUYEN_GROUP.xss">
+      <DependentUpon>DS_HT_QUYEN_GROUP.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUYEN_USER_WEB.xsc">
+      <DependentUpon>DS_HT_QUYEN_USER_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_QUYEN_USER_WEB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_QUYEN_USER_WEB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_QUYEN_USER_WEB.xss">
+      <DependentUpon>DS_HT_QUYEN_USER_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER.xsc">
+      <DependentUpon>DS_HT_USER.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_USER.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_USER.xss">
+      <DependentUpon>DS_HT_USER.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER_GROUP.xsc">
+      <DependentUpon>DS_HT_USER_GROUP.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER_GROUP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_USER_GROUP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_USER_GROUP.xss">
+      <DependentUpon>DS_HT_USER_GROUP.xsd</DependentUpon>
+    </None>
+    <None Include="DS_IMPORT_EXCEL_LUONG_THEO_QD.xsc">
+      <DependentUpon>DS_IMPORT_EXCEL_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_IMPORT_EXCEL_LUONG_THEO_QD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_IMPORT_EXCEL_LUONG_THEO_QD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_IMPORT_EXCEL_LUONG_THEO_QD.xss">
+      <DependentUpon>DS_IMPORT_EXCEL_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_BO_NHIEM.xsc">
+      <DependentUpon>DS_RPT_BO_NHIEM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_BO_NHIEM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_BO_NHIEM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_BO_NHIEM.xss">
+      <DependentUpon>DS_RPT_BO_NHIEM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_CHUC_VU_TRANG_THAI.xsc">
+      <DependentUpon>DS_RPT_CHUC_VU_TRANG_THAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_CHUC_VU_TRANG_THAI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_CHUC_VU_TRANG_THAI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_CHUC_VU_TRANG_THAI.xss">
+      <DependentUpon>DS_RPT_CHUC_VU_TRANG_THAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_DON_VI_TRANG_THAI.xsc">
+      <DependentUpon>DS_RPT_DON_VI_TRANG_THAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_DON_VI_TRANG_THAI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_DON_VI_TRANG_THAI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_DON_VI_TRANG_THAI.xss">
+      <DependentUpon>DS_RPT_DON_VI_TRANG_THAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER_GROUP_WEB.xsc">
+      <DependentUpon>DS_HT_USER_GROUP_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_HT_USER_GROUP_WEB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_HT_USER_GROUP_WEB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_HT_USER_GROUP_WEB.xss">
+      <DependentUpon>DS_HT_USER_GROUP_WEB.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_LUONG_DON_VI_THEO_KY.xsc">
+      <DependentUpon>DS_RPT_LUONG_DON_VI_THEO_KY.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_LUONG_DON_VI_THEO_KY.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_LUONG_DON_VI_THEO_KY.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_LUONG_DON_VI_THEO_KY.xss">
+      <DependentUpon>DS_RPT_LUONG_DON_VI_THEO_KY.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_LUONG_THEO_QD.xsc">
+      <DependentUpon>DS_RPT_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_LUONG_THEO_QD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_LUONG_THEO_QD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_LUONG_THEO_QD.xss">
+      <DependentUpon>DS_RPT_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_NHAN_SU_PERFECT.xsc">
+      <DependentUpon>DS_RPT_NHAN_SU_PERFECT.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_NHAN_SU_PERFECT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_NHAN_SU_PERFECT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_NHAN_SU_PERFECT.xss">
+      <DependentUpon>DS_RPT_NHAN_SU_PERFECT.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV.xsc">
+      <DependentUpon>DS_RPT_SO_LUONG_NV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_SO_LUONG_NV.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV.xss">
+      <DependentUpon>DS_RPT_SO_LUONG_NV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV_THEO_LOAI.xsc">
+      <DependentUpon>DS_RPT_SO_LUONG_NV_THEO_LOAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV_THEO_LOAI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_SO_LUONG_NV_THEO_LOAI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_RPT_SO_LUONG_NV_THEO_LOAI.xss">
+      <DependentUpon>DS_RPT_SO_LUONG_NV_THEO_LOAI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_TONG_LUONG.xsc">
+      <DependentUpon>DS_RPT_TONG_LUONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_RPT_TONG_LUONG.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_RPT_TONG_LUONG.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_RPT_TONG_LUONG.xss">
+      <DependentUpon>DS_RPT_TONG_LUONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_CAP_BAC.xsc">
+      <DependentUpon>DS_V_DM_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_CAP_BAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_CAP_BAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_CAP_BAC.xss">
+      <DependentUpon>DS_V_DM_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_CHUC_VU.xsc">
+      <DependentUpon>DS_V_DM_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_CHUC_VU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_CHUC_VU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_CHUC_VU.xss">
+      <DependentUpon>DS_V_DM_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DON_VI.xsc">
+      <DependentUpon>DS_V_DM_DON_VI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DON_VI.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_DON_VI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_DON_VI.xss">
+      <DependentUpon>DS_V_DM_DON_VI.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xsc">
+      <DependentUpon>DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xss">
+      <DependentUpon>DS_V_DM_DU_AN_QUYET_DINH_TU_DIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DU_LIEU_NHAN_VIEN.xsc">
+      <DependentUpon>DS_V_DM_DU_LIEU_NHAN_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_DU_LIEU_NHAN_VIEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_DU_LIEU_NHAN_VIEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_DU_LIEU_NHAN_VIEN.xss">
+      <DependentUpon>DS_V_DM_DU_LIEU_NHAN_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU.xsc">
+      <DependentUpon>DS_V_DM_NHAN_SU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_NHAN_SU.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU.xss">
+      <DependentUpon>DS_V_DM_NHAN_SU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU_DU_AN.xsc">
+      <DependentUpon>DS_V_DM_NHAN_SU_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU_DU_AN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_NHAN_SU_DU_AN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_NHAN_SU_DU_AN.xss">
+      <DependentUpon>DS_V_DM_NHAN_SU_DU_AN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_QUYET_DINH.xsc">
+      <DependentUpon>DS_V_DM_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_QUYET_DINH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_QUYET_DINH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_QUYET_DINH.xss">
+      <DependentUpon>DS_V_DM_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_TRANG_THAI_UNG_VIEN.xsc">
+      <DependentUpon>DS_V_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_DM_TRANG_THAI_UNG_VIEN.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_DM_TRANG_THAI_UNG_VIEN.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_DM_TRANG_THAI_UNG_VIEN.xss">
+      <DependentUpon>DS_V_DM_TRANG_THAI_UNG_VIEN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_BAO_CAO_DU_AN_2.xsc">
+      <DependentUpon>DS_V_GD_BAO_CAO_DU_AN_2.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_BAO_CAO_DU_AN_2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_BAO_CAO_DU_AN_2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_BAO_CAO_DU_AN_2.xss">
+      <DependentUpon>DS_V_GD_BAO_CAO_DU_AN_2.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_CHI_TIET_CAP_BAC.xsc">
+      <DependentUpon>DS_V_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_CHI_TIET_CAP_BAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_CHI_TIET_CAP_BAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_CHI_TIET_CAP_BAC.xss">
+      <DependentUpon>DS_V_GD_CHI_TIET_CAP_BAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_CONG_TAC.xsc">
+      <DependentUpon>DS_V_GD_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_CONG_TAC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_CONG_TAC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_CONG_TAC.xss">
+      <DependentUpon>DS_V_GD_CONG_TAC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_HOP_DONG_LAO_DONG.xsc">
+      <DependentUpon>DS_V_GD_HOP_DONG_LAO_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_HOP_DONG_LAO_DONG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_HOP_DONG_LAO_DONG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_HOP_DONG_LAO_DONG.xss">
+      <DependentUpon>DS_V_GD_HOP_DONG_LAO_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_LUONG_THEO_QD.xsc">
+      <DependentUpon>DS_V_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_LUONG_THEO_QD.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_LUONG_THEO_QD.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_LUONG_THEO_QD.xss">
+      <DependentUpon>DS_V_GD_LUONG_THEO_QD.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC.xsc">
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_QUA_TRINH_LAM_VIEC.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC.xss">
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC_2.xsc">
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC_2.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC_2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_QUA_TRINH_LAM_VIEC_2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_QUA_TRINH_LAM_VIEC_2.xss">
+      <DependentUpon>DS_V_GD_QUA_TRINH_LAM_VIEC_2.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUYET_DINH.xsc">
+      <DependentUpon>DS_V_GD_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_QUYET_DINH.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_QUYET_DINH.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_QUYET_DINH.xss">
+      <DependentUpon>DS_V_GD_QUYET_DINH.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_TRANG_THAI_LAO_DONG.xsc">
+      <DependentUpon>DS_V_GD_TRANG_THAI_LAO_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_GD_TRANG_THAI_LAO_DONG.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_GD_TRANG_THAI_LAO_DONG.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_GD_TRANG_THAI_LAO_DONG.xss">
+      <DependentUpon>DS_V_GD_TRANG_THAI_LAO_DONG.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_HT_CONTROL_IN_FORM.xsc">
+      <DependentUpon>DS_V_HT_CONTROL_IN_FORM.xsd</DependentUpon>
+    </None>
+    <None Include="DS_V_HT_CONTROL_IN_FORM.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_V_HT_CONTROL_IN_FORM.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_V_HT_CONTROL_IN_FORM.xss">
+      <DependentUpon>DS_V_HT_CONTROL_IN_FORM.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
