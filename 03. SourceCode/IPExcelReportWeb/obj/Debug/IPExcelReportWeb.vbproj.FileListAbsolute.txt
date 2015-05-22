@@ -50,3 +50,16 @@ D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. Sourc
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.dll
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.xml
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\IPExcelReportWeb.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\IPExcelReportWeb.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\IPExcelReportWeb.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\C1.Common.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\Interop.Excel.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\bin\Debug\Interop.Office.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.vbprojResolveAssemblyReference.cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.Resources.resources
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.vbproj.GenerateResource.Cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPExcelReportWeb\obj\Debug\IPExcelReportWeb.pdb

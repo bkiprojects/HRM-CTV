@@ -61,6 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_DM_CHUC_VU.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_DM_CTV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_DM_CTV.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_DM_DON_VI.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -423,6 +428,17 @@
     </None>
     <None Include="DS_DM_CHUC_VU.xss">
       <DependentUpon>DS_DM_CHUC_VU.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CTV.xsc">
+      <DependentUpon>DS_DM_CTV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_DM_CTV.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_DM_CTV.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_DM_CTV.xss">
+      <DependentUpon>DS_DM_CTV.xsd</DependentUpon>
     </None>
     <None Include="DS_DM_DON_VI.xsc">
       <DependentUpon>DS_DM_DON_VI.xsd</DependentUpon>

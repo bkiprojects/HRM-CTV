@@ -127,3 +127,32 @@ D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. Sourc
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPException.xml
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPUserService.pdb
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPUserService.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\BKI_HRM.US.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\BKI_HRM.US.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\BKI_HRM.DS.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPBusinessService.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPCommon.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPData.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPException.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPUserService.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\C1.Win.C1FlexGrid.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\C1.Win.C1FlexGrid.Classic.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\CrystalDecisions.Shared.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\C1.Common.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\BKI_HRM.DS.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPBusinessService.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPBusinessService.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPCommon.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPCommon.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPData.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPData.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPException.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPException.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPUserService.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\bin\Debug\IPUserService.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\obj\Debug\BKI_HRM.US.csprojResolveAssemblyReference.cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\obj\Debug\BKI_HRM.US.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.US\obj\Debug\BKI_HRM.US.pdb

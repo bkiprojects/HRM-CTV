@@ -33,3 +33,10 @@ D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. Sourc
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPData\obj\Debug\IPData.dll
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPData\obj\Debug\IPData.xml
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPData\obj\Debug\IPData.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\bin\IPData.dll.config
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\bin\IPData.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\bin\IPData.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\bin\IPData.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\obj\Debug\IPData.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\obj\Debug\IPData.xml
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPData\obj\Debug\IPData.pdb

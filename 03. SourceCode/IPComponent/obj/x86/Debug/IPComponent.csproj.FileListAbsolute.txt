@@ -29,3 +29,12 @@ D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. Sourc
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.csproj.GenerateResource.Cache
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.dll
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\bin\Debug\IPComponent.dll.config
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\bin\Debug\IPComponent.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\bin\Debug\IPComponent.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.csprojResolveAssemblyReference.cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.Form1.resources
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IP.Core.IPComponent.Properties.Resources.resources
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.csproj.GenerateResource.Cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\IPComponent\obj\x86\Debug\IPComponent.pdb

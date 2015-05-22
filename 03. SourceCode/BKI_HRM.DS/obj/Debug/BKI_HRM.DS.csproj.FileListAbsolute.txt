@@ -27,3 +27,9 @@ D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. Sourc
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.csprojResolveAssemblyReference.cache
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.dll
 D:\03. Work\01. BKIndex\05. Project\03. Quan Ly Khach Hang - HRM\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\bin\Debug\BKI_HRM.DS.dll.config
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\bin\Debug\BKI_HRM.DS.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\bin\Debug\BKI_HRM.DS.pdb
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.csprojResolveAssemblyReference.cache
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.dll
+D:\02. Study\09.[Ki II 2014_2015]\03. DA\HRM-CTV\trunk\03. SourceCode\BKI_HRM.DS\obj\Debug\BKI_HRM.DS.pdb

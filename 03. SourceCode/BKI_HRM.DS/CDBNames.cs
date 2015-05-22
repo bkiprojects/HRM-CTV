@@ -1364,5 +1364,59 @@
        public const string ID_CV = "ID_CV";
    }
 
+   public class DM_CTV
+   {
+       public const string ID = "ID";
+       public const string MA_CTV = "MA_CTV";
+       public const string HO_DEM = "HO_DEM";
+       public const string TEN = "TEN";
+       public const string GIOI_TINH = "GIOI_TINH";
+       public const string NGAY_SINH = "NGAY_SINH";
+       public const string NOI_SINH = "NOI_SINH";
+       public const string NGUYEN_QUAN = "NGUYEN_QUAN";
+       public const string ANH = "ANH";
+       public const string CMND = "CMND";
+       public const string NGAY_CAP_CMND = "NGAY_CAP_CMND";
+       public const string NOI_CAP_CMND = "NOI_CAP_CMND";
+       public const string TRINH_DO = "TRINH_DO";
+       public const string NOI_DAO_TAO = "NOI_DAO_TAO";
+       public const string CHUYEN_NGANH = "CHUYEN_NGANH";
+       public const string NAM_TOT_NGHIEP = "NAM_TOT_NGHIEP";
+       public const string EMAIL_CQ = "EMAIL_CQ";
+       public const string EMAIL_CA_NHAN = "EMAIL_CA_NHAN";
+       public const string DT_NHA = "DT_NHA";
+       public const string DI_DONG = "DI_DONG";
+       public const string CHO_O = "CHO_O";
+       public const string HO_KHAU = "HO_KHAU";
+       public const string NGUOI_LIEN_HE = "NGUOI_LIEN_HE";
+       public const string DI_DONG_LIEN_HE = "DI_DONG_LIEN_HE";
+       public const string QUAN_HE = "QUAN_HE";
+       public const string TON_GIAO = "TON_GIAO";
+       public const string DAN_TOC = "DAN_TOC";
+       public const string MA_SO_THUE = "MA_SO_THUE";
+       public const string TRANG_THAI = "TRANG_THAI";
+       public const string SO_TAI_KHOAN = "SO_TAI_KHOAN";
+       public const string CHI_NHANH_NGANHANG = "CHI_NHANH_NGANHANG";
+       public const string DIA_DIEM_LV = "DIA_DIEM_LV";
+       public const string HO_TEN_BO = "HO_TEN_BO";
+       public const string NGHE_NGHIEP_BO = "NGHE_NGHIEP_BO";
+       public const string NAM_SINH_BO = "NAM_SINH_BO";
+       public const string HO_TEN_ME = "HO_TEN_ME";
+       public const string NGHE_NGHIEP_ME = "NGHE_NGHIEP_ME";
+       public const string NAM_SINH_ME = "NAM_SINH_ME";
+       public const string HO_TEN_CON_THU_1 = "HO_TEN_CON_THU_1";
+       public const string NGHE_NGHIEP_CON_THU_1 = "NGHE_NGHIEP_CON_THU_1";
+       public const string NAM_SINH_CON_THU_1 = "NAM_SINH_CON_THU_1";
+       public const string HO_TEN_CON_THU_2 = "HO_TEN_CON_THU_2";
+       public const string NGHE_NGHIEP_CON_THU_2 = "NGHE_NGHIEP_CON_THU_2";
+       public const string NAM_SINH_CON_THU_2 = "NAM_SINH_CON_THU_2";
+       public const string HO_TEN_CON_THU_3 = "HO_TEN_CON_THU_3";
+       public const string NGHE_NGHIEP_CON_THU_3 = "NGHE_NGHIEP_CON_THU_3";
+       public const string NAM_SINH_CON_THU_3 = "NAM_SINH_CON_THU_3";
+       public const string HO_TEN_VO_OR_CHONG = "HO_TEN_VO_OR_CHONG";
+       public const string NGHE_NGHIEP_VO_OR_CHONG = "NGHE_NGHIEP_VO_OR_CHONG";
+       public const string NAM_SINH_VO_OR_CHONG = "NAM_SINH_VO_OR_CHONG";
+   }
+
 
 }

@@ -309,6 +309,15 @@
     <Compile Include="DanhMuc\F205_V_GD_QUYET_DINH.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DanhMuc\f206_dm_ctv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\f206_dm_ctv_de.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\f206_dm_ctv_de.designer.cs">
+      <DependentUpon>f206_dm_ctv_de.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\f300_DM_KY.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -665,6 +674,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\F205_V_GD_QUYET_DINH.resx">
       <DependentUpon>F205_V_GD_QUYET_DINH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\f206_dm_ctv.resx">
+      <DependentUpon>f206_dm_ctv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\f206_dm_ctv_de.resx">
+      <DependentUpon>f206_dm_ctv_de.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\f300_DM_KY.resx">
       <DependentUpon>f300_DM_KY.cs</DependentUpon>
