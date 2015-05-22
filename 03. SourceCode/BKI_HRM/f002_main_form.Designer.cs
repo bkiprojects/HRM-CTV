@@ -135,6 +135,7 @@
             this.m_cbo_phap_nhan = new System.Windows.Forms.ComboBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.cM_DM_TU_DIENTableAdapter1 = new BKI_HRM.DS.DS_CM_DM_TU_DIENTableAdapters.CM_DM_TU_DIENTableAdapter();
+            this.m_cmd_bc_ttld_ctv = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.m_tab_menu)).BeginInit();
             this.m_pnl_thong_bao.SuspendLayout();
             this.m_pnl_nv_chua_chuc_vu_trang_thai.SuspendLayout();
@@ -220,9 +221,10 @@
             this.m_cmd_bc_luong_theo_qd,
             this.m_cmd_rpt_tong_luong,
             this.m_cmd_rpt_luong_don_vi_theo_ky,
-            this.m_cmd_rpt_nhan_su_perfect});
+            this.m_cmd_rpt_nhan_su_perfect,
+            this.m_cmd_bc_ttld_ctv});
             this.m_tab_menu.Location = new System.Drawing.Point(0, 0);
-            this.m_tab_menu.MaxItemId = 84;
+            this.m_tab_menu.MaxItemId = 85;
             this.m_tab_menu.Name = "m_tab_menu";
             this.m_tab_menu.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -844,6 +846,7 @@
             this.ribbonPageGroup14.ItemLinks.Add(this.m_cmd_bao_cao_so_luong_bo_nhiem);
             this.ribbonPageGroup14.ItemLinks.Add(this.m_cmd_bien_dong_don_vi_trang_thai);
             this.ribbonPageGroup14.ItemLinks.Add(this.m_cmd_rpt_nhan_su_perfect);
+            this.ribbonPageGroup14.ItemLinks.Add(this.m_cmd_bc_ttld_ctv);
             this.ribbonPageGroup14.Name = "ribbonPageGroup14";
             this.ribbonPageGroup14.Text = "Nhân sự";
             // 
@@ -1177,6 +1180,13 @@
             // 
             this.cM_DM_TU_DIENTableAdapter1.ClearBeforeFill = true;
             // 
+            // m_cmd_bc_ttld_ctv
+            // 
+            this.m_cmd_bc_ttld_ctv.Caption = "barButtonItem1";
+            this.m_cmd_bc_ttld_ctv.Id = 84;
+            this.m_cmd_bc_ttld_ctv.Name = "m_cmd_bc_ttld_ctv";
+            this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
+            // 
             // f002_main_form
             // 
             this.ClientSize = new System.Drawing.Size(1193, 630);
@@ -1216,6 +1226,7 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1331,5 +1342,6 @@
         private DevExpress.XtraBars.BarButtonItem m_cmd_rpt_nhan_su_perfect;
         private System.Windows.Forms.Panel m_pnl_nv_chua_chuc_vu_trang_thai;
         private System.Windows.Forms.Label m_lbl_nv_chua_chuc_vu_trang_thai;
+        private DevExpress.XtraBars.BarButtonItem m_cmd_bc_ttld_ctv;
     }
 }

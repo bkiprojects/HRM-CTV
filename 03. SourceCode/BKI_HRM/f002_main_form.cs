@@ -1353,5 +1353,16 @@ namespace BKI_HRM
                 CSystemLog_301.ExceptionHandle(v_e);
             }
         }
+
+        private void m_cmd_bc_ttld_ctv_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+            try {
+                f600_bc_trang_thai_ctv v_frm = new f600_bc_trang_thai_ctv();
+                m_obj_tab.AddTab(m_xtab_control, v_frm.Name, v_frm.Text, v_frm, new UserControl());
+            }
+            catch(Exception v_e) {
+                
+                throw v_e;
+            }
+        }
     }
 }
