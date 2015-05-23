@@ -26,14 +26,14 @@
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.m_dat_dau_thang = new DevExpress.XtraEditors.DateEdit();
             this.m_dat_cuoi_thang = new DevExpress.XtraEditors.DateEdit();
+            this.m_dat_dau_thang = new DevExpress.XtraEditors.DateEdit();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_dat_cuoi_thang.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_dat_cuoi_thang.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // pivotGridControl1
@@ -43,6 +43,7 @@
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.Size = new System.Drawing.Size(770, 387);
             this.pivotGridControl1.TabIndex = 0;
+            this.pivotGridControl1.CellDoubleClick += new DevExpress.XtraPivotGrid.PivotCellEventHandler(this.pivotGridControl1_CellDoubleClick);
             // 
             // panel1
             // 
@@ -62,18 +63,6 @@
             this.panel2.Size = new System.Drawing.Size(770, 94);
             this.panel2.TabIndex = 1;
             // 
-            // m_dat_dau_thang
-            // 
-            this.m_dat_dau_thang.EditValue = null;
-            this.m_dat_dau_thang.Location = new System.Drawing.Point(114, 22);
-            this.m_dat_dau_thang.Name = "m_dat_dau_thang";
-            this.m_dat_dau_thang.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.m_dat_dau_thang.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.m_dat_dau_thang.Size = new System.Drawing.Size(127, 20);
-            this.m_dat_dau_thang.TabIndex = 0;
-            // 
             // m_dat_cuoi_thang
             // 
             this.m_dat_cuoi_thang.EditValue = null;
@@ -85,6 +74,18 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.m_dat_cuoi_thang.Size = new System.Drawing.Size(136, 20);
             this.m_dat_cuoi_thang.TabIndex = 0;
+            // 
+            // m_dat_dau_thang
+            // 
+            this.m_dat_dau_thang.EditValue = null;
+            this.m_dat_dau_thang.Location = new System.Drawing.Point(114, 22);
+            this.m_dat_dau_thang.Name = "m_dat_dau_thang";
+            this.m_dat_dau_thang.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.m_dat_dau_thang.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.m_dat_dau_thang.Size = new System.Drawing.Size(127, 20);
+            this.m_dat_dau_thang.TabIndex = 0;
             // 
             // f600_bc_trang_thai_ctv
             // 
@@ -98,10 +99,10 @@
             this.Text = "F600 - Báo cáo TTLĐ theo CTV";
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_dat_cuoi_thang.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.m_dat_cuoi_thang.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.m_dat_dau_thang.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

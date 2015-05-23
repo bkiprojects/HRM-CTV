@@ -124,6 +124,8 @@
     <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -272,6 +274,12 @@
     </Compile>
     <Compile Include="BaoCao\f600_bc_trang_thai_ctv.Designer.cs">
       <DependentUpon>f600_bc_trang_thai_ctv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCao\f600_de.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCao\f600_de.Designer.cs">
+      <DependentUpon>f600_de.cs</DependentUpon>
     </Compile>
     <Compile Include="BaoCao\f702_bao_cao_hdld.cs">
       <SubType>Form</SubType>
@@ -646,6 +654,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f600_bc_trang_thai_ctv.resx">
       <DependentUpon>f600_bc_trang_thai_ctv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f600_de.resx">
+      <DependentUpon>f600_de.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f702_bao_cao_hdld.resx">
       <DependentUpon>f702_bao_cao_hdld.cs</DependentUpon>
