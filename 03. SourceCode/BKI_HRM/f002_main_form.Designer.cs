@@ -87,6 +87,7 @@
             this.m_cmd_rpt_tong_luong = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_rpt_luong_don_vi_theo_ky = new DevExpress.XtraBars.BarButtonItem();
             this.m_cmd_rpt_nhan_su_perfect = new DevExpress.XtraBars.BarButtonItem();
+            this.m_cmd_bc_ttld_ctv = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -135,7 +136,6 @@
             this.m_cbo_phap_nhan = new System.Windows.Forms.ComboBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.cM_DM_TU_DIENTableAdapter1 = new BKI_HRM.DS.DS_CM_DM_TU_DIENTableAdapters.CM_DM_TU_DIENTableAdapter();
-            this.m_cmd_bc_ttld_ctv = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.m_tab_menu)).BeginInit();
             this.m_pnl_thong_bao.SuspendLayout();
             this.m_pnl_nv_chua_chuc_vu_trang_thai.SuspendLayout();
@@ -397,6 +397,7 @@
             this.m_cmd_ql_quyet_dinh.LargeGlyph = global::BKI_HRM.Properties.Resources._1413449902_103514;
             this.m_cmd_ql_quyet_dinh.Name = "m_cmd_ql_quyet_dinh";
             this.m_cmd_ql_quyet_dinh.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_ql_quyet_dinh.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_ky
             // 
@@ -405,6 +406,7 @@
             this.m_cmd_ky.LargeGlyph = global::BKI_HRM.Properties.Resources._1413453730_132159;
             this.m_cmd_ky.Name = "m_cmd_ky";
             this.m_cmd_ky.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_ky.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_ho_so_nhan_su
             // 
@@ -437,7 +439,7 @@
             this.m_cmd_chi_tiet_cap_bac.Id = 43;
             this.m_cmd_chi_tiet_cap_bac.Name = "m_cmd_chi_tiet_cap_bac";
             this.m_cmd_chi_tiet_cap_bac.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.m_cmd_chi_tiet_cap_bac.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+            this.m_cmd_chi_tiet_cap_bac.Visibility = DevExpress.XtraBars.BarItemVisibility.OnlyInCustomizing;
             // 
             // m_cmd_qua_trinh_di_cong_tac
             // 
@@ -446,6 +448,7 @@
             this.m_cmd_qua_trinh_di_cong_tac.Id = 44;
             this.m_cmd_qua_trinh_di_cong_tac.Name = "m_cmd_qua_trinh_di_cong_tac";
             this.m_cmd_qua_trinh_di_cong_tac.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_qua_trinh_di_cong_tac.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_thong_tin_du_an
             // 
@@ -454,6 +457,7 @@
             this.m_cmd_thong_tin_du_an.Id = 45;
             this.m_cmd_thong_tin_du_an.Name = "m_cmd_thong_tin_du_an";
             this.m_cmd_thong_tin_du_an.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_thong_tin_du_an.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_hop_dong_lao_dong
             // 
@@ -470,6 +474,7 @@
             this.m_cmd_luongqd.Id = 47;
             this.m_cmd_luongqd.Name = "m_cmd_luongqd";
             this.m_cmd_luongqd.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_luongqd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // barButtonItem31
             // 
@@ -715,6 +720,13 @@
             this.m_cmd_rpt_nhan_su_perfect.Name = "m_cmd_rpt_nhan_su_perfect";
             this.m_cmd_rpt_nhan_su_perfect.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
+            // m_cmd_bc_ttld_ctv
+            // 
+            this.m_cmd_bc_ttld_ctv.Caption = "barButtonItem1";
+            this.m_cmd_bc_ttld_ctv.Id = 84;
+            this.m_cmd_bc_ttld_ctv.Name = "m_cmd_bc_ttld_ctv";
+            this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
@@ -837,6 +849,7 @@
             this.ribbonPageGroup10.ItemLinks.Add(this.m_cmd_bao_cao_du_an);
             this.ribbonPageGroup10.Name = "ribbonPageGroup10";
             this.ribbonPageGroup10.Text = "Dự án";
+            this.ribbonPageGroup10.Visible = false;
             // 
             // ribbonPageGroup14
             // 
@@ -872,6 +885,7 @@
             this.ribbonPageGroup17});
             this.ribbonPage6.Name = "ribbonPage6";
             this.ribbonPage6.Text = "Tra cứu danh sách";
+            this.ribbonPage6.Visible = false;
             // 
             // ribbonPageGroup11
             // 
@@ -1179,13 +1193,6 @@
             // cM_DM_TU_DIENTableAdapter1
             // 
             this.cM_DM_TU_DIENTableAdapter1.ClearBeforeFill = true;
-            // 
-            // m_cmd_bc_ttld_ctv
-            // 
-            this.m_cmd_bc_ttld_ctv.Caption = "barButtonItem1";
-            this.m_cmd_bc_ttld_ctv.Id = 84;
-            this.m_cmd_bc_ttld_ctv.Name = "m_cmd_bc_ttld_ctv";
-            this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
             // 
             // f002_main_form
             // 
