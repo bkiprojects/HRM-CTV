@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f002_main_form));
             this.m_tab_menu = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.m_cmd_phan_quyen_chi_tiet = new DevExpress.XtraBars.BarButtonItem();
@@ -128,14 +127,14 @@
             this.m_lbl_thu_viec_sap_het_han = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.m_lbl_sap_quay_lai = new System.Windows.Forms.Label();
-            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
+            this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager();
             this.m_xtab_control = new DevExpress.XtraTab.XtraTabControl();
             this.m_lbl_tong_so_nv = new System.Windows.Forms.Label();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.m_cbo_phap_nhan = new System.Windows.Forms.ComboBox();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList1 = new System.Windows.Forms.ImageList();
             this.cM_DM_TU_DIENTableAdapter1 = new BKI_HRM.DS.DS_CM_DM_TU_DIENTableAdapters.CM_DM_TU_DIENTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.m_tab_menu)).BeginInit();
             this.m_pnl_thong_bao.SuspendLayout();
@@ -1222,7 +1221,7 @@
             this.Name = "f002_main_form";
             this.Ribbon = this.m_tab_menu;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F002 - Chương trình quản lý nhân sự ";
+            this.Text = "F002 - Chương trình quản lý CTV";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.f002_main_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.m_tab_menu)).EndInit();
