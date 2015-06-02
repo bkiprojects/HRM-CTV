@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f202_v_gd_qua_trinh_lam_viec_de));
             this.m_dat_ngay_ket_thuc = new System.Windows.Forms.DateTimePicker();
-            this.ImageList = new System.Windows.Forms.ImageList(this.components);
+            this.ImageList = new System.Windows.Forms.ImageList();
             this.m_lbl_ngay_ket_thuc = new System.Windows.Forms.Label();
             this.m_pnl_out_place_dm = new System.Windows.Forms.Panel();
             this.m_cmd_save = new SIS.Controls.Button.SiSButton();
@@ -845,9 +844,9 @@
             this.m_lbl_ma_nv.AutoSize = true;
             this.m_lbl_ma_nv.Location = new System.Drawing.Point(20, 12);
             this.m_lbl_ma_nv.Name = "m_lbl_ma_nv";
-            this.m_lbl_ma_nv.Size = new System.Drawing.Size(72, 13);
+            this.m_lbl_ma_nv.Size = new System.Drawing.Size(46, 13);
             this.m_lbl_ma_nv.TabIndex = 103;
-            this.m_lbl_ma_nv.Text = "Mã nhân viên";
+            this.m_lbl_ma_nv.Text = "Mã CTV";
             // 
             // m_cbo_ma_chuc_vu_moi
             // 

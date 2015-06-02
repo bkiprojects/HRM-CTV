@@ -81,9 +81,8 @@ namespace BKI_HRM
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f202_V_GD_QUA_TRINH_LAM_VIEC));
-            this.ImageList = new System.Windows.Forms.ImageList(this.components);
+            this.ImageList = new System.Windows.Forms.ImageList();
             this.m_pnl_out_place_dm = new System.Windows.Forms.Panel();
             this.m_lbl_phim_tat = new System.Windows.Forms.Label();
             this.m_cmd_update = new SIS.Controls.Button.SiSButton();
@@ -237,9 +236,9 @@ namespace BKI_HRM
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(178, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 13);
+            this.label1.Size = new System.Drawing.Size(76, 13);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Thông tin nhân viên";
+            this.label1.Text = "Thông tin CTV";
             // 
             // m_txt_tim_kiem
             // 
@@ -264,7 +263,7 @@ namespace BKI_HRM
             this.m_cmd_tim_nhan_vien.Name = "m_cmd_tim_nhan_vien";
             this.m_cmd_tim_nhan_vien.Size = new System.Drawing.Size(111, 28);
             this.m_cmd_tim_nhan_vien.TabIndex = 23;
-            this.m_cmd_tim_nhan_vien.Text = "Tìm nhân viên";
+            this.m_cmd_tim_nhan_vien.Text = "Tìm CTV";
             this.m_cmd_tim_nhan_vien.Click += new System.EventHandler(this.m_cmd_tim_nhan_vien_Click);
             // 
             // m_lbl_mess
@@ -379,7 +378,7 @@ namespace BKI_HRM
         US_DM_NHAN_SU m_us_dm_nhan_su = new US_DM_NHAN_SU();
         decimal tong_so;
         decimal hien_tai;
-        string m_str_message_tim_kiem = "Nhập mã nhân viên hoặc họ tên để tìm kiếm";
+        string m_str_message_tim_kiem = "Nhập mã CTV hoặc họ tên để tìm kiếm";
 		#endregion
 
 		#region Private Methods

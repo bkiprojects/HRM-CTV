@@ -142,7 +142,7 @@ namespace BKI_HRM
                 CAppContext_201.getCurrentIDPhapnhan(),
                 ref v_dc_so_luong_nv_hien_tai);
 
-            m_lbl_tong_so_nv.Text = "Số lượng nhân viên hiện tại: " + v_dc_so_luong_nv_hien_tai;
+            m_lbl_tong_so_nv.Text = "Số lượng CTV hiện tại: " + v_dc_so_luong_nv_hien_tai;
         }
         private void thu_viec_sap_het_han_da_het_han()
         {
