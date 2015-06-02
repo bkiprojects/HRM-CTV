@@ -189,6 +189,7 @@ namespace BKI_HRM
         private TextBox m_txt_nam_sinh_vo_chong;
         private TextBox m_txt_nghe_nghiep_vo_chong;
         private TextBox m_txt_ho_ten_vo_chong;
+        internal SIS.Controls.Button.SiSButton siSButton1;
         private System.ComponentModel.IContainer components;
 
 
@@ -364,6 +365,7 @@ namespace BKI_HRM
             this.m_cmd_print_cv = new SIS.Controls.Button.SiSButton();
             this.m_cmd_delete = new SIS.Controls.Button.SiSButton();
             this.m_cmd_exit = new SIS.Controls.Button.SiSButton();
+            this.siSButton1 = new SIS.Controls.Button.SiSButton();
             this.m_tpg_thong_tin_khac.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -1849,6 +1851,7 @@ namespace BKI_HRM
             // 
             // m_pnl_out_place_dm
             // 
+            this.m_pnl_out_place_dm.Controls.Add(this.siSButton1);
             this.m_pnl_out_place_dm.Controls.Add(this.m_cmd_import_excel);
             this.m_pnl_out_place_dm.Controls.Add(this.m_cmd_chon_phap_nhan);
             this.m_pnl_out_place_dm.Controls.Add(this.m_cmd_chon_nhan_vien);
@@ -1985,6 +1988,21 @@ namespace BKI_HRM
             this.m_cmd_exit.Size = new System.Drawing.Size(100, 28);
             this.m_cmd_exit.TabIndex = 32;
             this.m_cmd_exit.Text = "Thoát (Esc)";
+            // 
+            // siSButton1
+            // 
+            this.siSButton1.AdjustImageLocation = new System.Drawing.Point(0, 0);
+            this.siSButton1.BtnShape = SIS.Controls.Button.emunType.BtnShape.Rectangle;
+            this.siSButton1.BtnStyle = SIS.Controls.Button.emunType.XPStyle.Default;
+            this.siSButton1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.siSButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.siSButton1.ImageIndex = 2;
+            this.siSButton1.ImageList = this.ImageList;
+            this.siSButton1.Location = new System.Drawing.Point(455, 4);
+            this.siSButton1.Name = "siSButton1";
+            this.siSButton1.Size = new System.Drawing.Size(119, 28);
+            this.siSButton1.TabIndex = 38;
+            this.siSButton1.Text = "&Thêm nhân viên";
             // 
             // f201_dm_nhan_su
             // 

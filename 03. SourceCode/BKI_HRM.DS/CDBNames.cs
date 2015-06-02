@@ -1419,4 +1419,44 @@
    }
 
 
+   public class GD_CHI_TIET_CHUC_VU_CTV
+   {
+       public const string ID = "ID";
+       public const string ID_CTV = "ID_CTV";
+       public const string ID_CHUC_VU = "ID_CHUC_VU";
+       public const string ID_DON_VI = "ID_DON_VI";
+       public const string NGAY_BAT_DAU = "NGAY_BAT_DAU";
+       public const string NGAY_KET_THUC = "NGAY_KET_THUC";
+       public const string TRANG_THAI_YN = "TRANG_THAI_YN";
+       public const string GHI_CHU = "GHI_CHU";
+       public const string PHAN_TRAM_THAM_GIA = "PHAN_TRAM_THAM_GIA";
+       public const string KIEM_NHIEM_YN = "KIEM_NHIEM_YN";
+   }
+
+   public class GD_HOP_DONG_CTV
+   {
+       public const string ID = "ID";
+       public const string MA_HOP_DONG = "MA_HOP_DONG";
+       public const string ID_LOAI_HOP_DONG = "ID_LOAI_HOP_DONG";
+       public const string ID_CTV = "ID_CTV";
+       public const string NGAY_KY_HOP_DONG = "NGAY_KY_HOP_DONG";
+       public const string NGAY_CO_HIEU_LUC = "NGAY_CO_HIEU_LUC";
+       public const string NGAY_HET_HAN = "NGAY_HET_HAN";
+       public const string LINK = "LINK";
+       public const string ID_PHAP_NHAN = "ID_PHAP_NHAN";
+       public const string TRANG_THAI_HOP_DONG_YN = "TRANG_THAI_HOP_DONG_YN";
+   }
+
+   public class GD_TRANG_THAI_LAO_DONG_CTV
+   {
+       public const string ID = "ID";
+       public const string ID_CTV = "ID_CTV";
+       public const string ID_TRANG_THAI_LAO_DONG = "ID_TRANG_THAI_LAO_DONG";
+       public const string ID_PHAP_NHAN = "ID_PHAP_NHAN";
+       public const string NGAY_BAT_DAU_TTLD = "NGAY_BAT_DAU_TTLD";
+       public const string NGAY_KET_THUC_TTLD = "NGAY_KET_THUC_TTLD";
+       public const string TRANG_THAI_HT_YN = "TRANG_THAI_HT_YN";
+       public const string THOI_GIAN_LAM_VIEC = "THOI_GIAN_LAM_VIEC";
+       public const string GHI_CHU = "GHI_CHU";
+   }
 }

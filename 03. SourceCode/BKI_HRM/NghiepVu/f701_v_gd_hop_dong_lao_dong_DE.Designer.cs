@@ -390,11 +390,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 62);
+            this.label1.Location = new System.Drawing.Point(2, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 64;
-            this.label1.Text = "Mã nhân viên";
+            this.label1.Text = "Mã cộng tác viên";
             // 
             // m_cbo_trang_thai
             // 

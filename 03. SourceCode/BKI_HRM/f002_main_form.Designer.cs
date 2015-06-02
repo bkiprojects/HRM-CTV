@@ -695,6 +695,7 @@
             this.m_cmd_bc_luong_theo_qd.Id = 78;
             this.m_cmd_bc_luong_theo_qd.Name = "m_cmd_bc_luong_theo_qd";
             this.m_cmd_bc_luong_theo_qd.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_bc_luong_theo_qd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_rpt_tong_luong
             // 
@@ -703,6 +704,7 @@
             this.m_cmd_rpt_tong_luong.Id = 79;
             this.m_cmd_rpt_tong_luong.Name = "m_cmd_rpt_tong_luong";
             this.m_cmd_rpt_tong_luong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_rpt_tong_luong.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_rpt_luong_don_vi_theo_ky
             // 
@@ -711,6 +713,7 @@
             this.m_cmd_rpt_luong_don_vi_theo_ky.Id = 81;
             this.m_cmd_rpt_luong_don_vi_theo_ky.Name = "m_cmd_rpt_luong_don_vi_theo_ky";
             this.m_cmd_rpt_luong_don_vi_theo_ky.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.m_cmd_rpt_luong_don_vi_theo_ky.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             // 
             // m_cmd_rpt_nhan_su_perfect
             // 
@@ -725,7 +728,7 @@
             this.m_cmd_bc_ttld_ctv.Caption = "barButtonItem1";
             this.m_cmd_bc_ttld_ctv.Id = 84;
             this.m_cmd_bc_ttld_ctv.Name = "m_cmd_bc_ttld_ctv";
-            this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
+            //this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -892,6 +895,7 @@
             this.ribbonPageGroup11.ItemLinks.Add(this.m_cmd_tra_cuu_nhan_su_du_an);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "Dự án";
+            this.ribbonPageGroup11.Visible = false;
             // 
             // ribbonPageGroup12
             // 

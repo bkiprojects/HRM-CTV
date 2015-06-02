@@ -1323,7 +1323,7 @@ namespace BKI_HRM
                         m_cmd_bc_luong_theo_qd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         m_cmd_rpt_tong_luong.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         m_cmd_thong_tin_du_an.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
-                        m_cmd_hop_dong_lao_dong.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+                        m_cmd_hop_dong_lao_dong.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
                         m_cmd_luongqd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         //m_cmd_import_luong_theo_qd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         m_cmd_nhan_su_theo_chuc_vu.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
@@ -1337,7 +1337,7 @@ namespace BKI_HRM
                         m_cmd_rpt_tong_luong.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
                         m_cmd_thong_tin_du_an.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         m_cmd_hop_dong_lao_dong.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
-                        m_cmd_luongqd.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
+                        m_cmd_luongqd.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         //m_cmd_import_luong_theo_qd.Visibility = DevExpress.XtraBars.BarItemVisibility.Always;
                         m_cmd_nhan_su_theo_chuc_vu.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
                         ribbonPageGroup12.Visible = true;
@@ -1354,15 +1354,15 @@ namespace BKI_HRM
             }
         }
 
-        private void m_cmd_bc_ttld_ctv_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
-            try {
-                f600_bc_trang_thai_ctv v_frm = new f600_bc_trang_thai_ctv();
-                m_obj_tab.AddTab(m_xtab_control, v_frm.Name, v_frm.Text, v_frm, new UserControl());
-            }
-            catch(Exception v_e) {
+        //private void m_cmd_bc_ttld_ctv_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e) {
+        //    try {
+        //        f600_bc_trang_thai_ctv v_frm = new f600_bc_trang_thai_ctv();
+        //        m_obj_tab.AddTab(m_xtab_control, v_frm.Name, v_frm.Text, v_frm, new UserControl());
+        //    }
+        //    catch(Exception v_e) {
                 
-                throw v_e;
-            }
-        }
+        //        throw v_e;
+        //    }
+        //}
     }
 }

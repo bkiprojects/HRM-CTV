@@ -121,6 +121,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_GD_CHI_TIET_CHUC_VU.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_GD_CHI_TIET_CHUC_VU_CTV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU_CTV.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_GD_CHI_TIET_DU_AN.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -146,6 +151,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_GD_HOP_DONG.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DS_GD_HOP_DONG_CTV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_HOP_DONG_CTV.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_GD_LUONG_THEO_QD.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -165,6 +175,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_GD_QUYET_DINH_PHAP_NHAN.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_GD_TRANG_THAI_LAO_DONG_CTV.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_GD_TRANG_THAI_LAO_DONG_CTV.xsd</DependentUpon>
     </Compile>
     <Compile Include="DS_HT_CHUC_NANG.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -561,6 +576,17 @@
     <None Include="DS_GD_CHI_TIET_CHUC_VU.xss">
       <DependentUpon>DS_GD_CHI_TIET_CHUC_VU.xsd</DependentUpon>
     </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU_CTV.xsc">
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU_CTV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU_CTV.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_CHI_TIET_CHUC_VU_CTV.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_CHI_TIET_CHUC_VU_CTV.xss">
+      <DependentUpon>DS_GD_CHI_TIET_CHUC_VU_CTV.xsd</DependentUpon>
+    </None>
     <None Include="DS_GD_CHI_TIET_DU_AN.xsc">
       <DependentUpon>DS_GD_CHI_TIET_DU_AN.xsd</DependentUpon>
     </None>
@@ -616,6 +642,17 @@
     <None Include="DS_GD_HOP_DONG.xss">
       <DependentUpon>DS_GD_HOP_DONG.xsd</DependentUpon>
     </None>
+    <None Include="DS_GD_HOP_DONG_CTV.xsc">
+      <DependentUpon>DS_GD_HOP_DONG_CTV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_HOP_DONG_CTV.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_HOP_DONG_CTV.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_HOP_DONG_CTV.xss">
+      <DependentUpon>DS_GD_HOP_DONG_CTV.xsd</DependentUpon>
+    </None>
     <None Include="DS_GD_LUONG_THEO_QD.xsc">
       <DependentUpon>DS_GD_LUONG_THEO_QD.xsd</DependentUpon>
     </None>
@@ -659,6 +696,17 @@
     </None>
     <None Include="DS_GD_QUYET_DINH_PHAP_NHAN.xss">
       <DependentUpon>DS_GD_QUYET_DINH_PHAP_NHAN.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_TRANG_THAI_LAO_DONG_CTV.xsc">
+      <DependentUpon>DS_GD_TRANG_THAI_LAO_DONG_CTV.xsd</DependentUpon>
+    </None>
+    <None Include="DS_GD_TRANG_THAI_LAO_DONG_CTV.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_GD_TRANG_THAI_LAO_DONG_CTV.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_GD_TRANG_THAI_LAO_DONG_CTV.xss">
+      <DependentUpon>DS_GD_TRANG_THAI_LAO_DONG_CTV.xsd</DependentUpon>
     </None>
     <None Include="DS_HT_CHUC_NANG.xsc">
       <DependentUpon>DS_HT_CHUC_NANG.xsd</DependentUpon>

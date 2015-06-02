@@ -756,21 +756,24 @@ namespace BKI_HRM
                 try
                 {
                     // Reset lại ds mới nếu chọn lại file excel khác
-                    m_ds = new DS_DM_NHAN_SU();
+                    DS_DM_NHAN_SU v_ds = new DS_DM_NHAN_SU();
+
+                    v_ds.Clear();
+                    v_ds.EnforceConstraints = false;
 
                     m_lbl_loading_mes.Visible = true;
                     CExcelReport v_excel_rpt = new CExcelReport(m_ofd_exel_file.FileName);
 
-                    m_ds.EnforceConstraints = false;
+                    //m_ds.EnforceConstraints = false;
 
-                    v_excel_rpt.Export2DatasetDS_by_DucVT(m_ds, m_ds.DM_NHAN_SU.TableName, 2);
-
+                    v_excel_rpt.Export2DatasetDS_by_DucVT(v_ds, v_ds.DM_NHAN_SU.TableName, 2);
+                    //v_excel_rpt.Export2DatasetDSPhongThi(v_ds, v_ds.DM_NHAN_SU.TableName, 2);
                     m_fg.Redraw = false;
 
                     //Gán DataSource
                     //m_fg.DataSource = m_ds.DM_NHAN_SU;
 
-                    CGridUtils.Dataset2C1Grid(m_ds, m_fg, m_obj_trans);
+                    CGridUtils.Dataset2C1Grid(v_ds, m_fg, m_obj_trans);
                     m_fg.Redraw = true;
                     m_lbl_loading_mes.Visible = false;
 
