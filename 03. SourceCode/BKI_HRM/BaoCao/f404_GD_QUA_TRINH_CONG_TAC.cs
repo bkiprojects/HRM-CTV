@@ -223,6 +223,7 @@ namespace BKI_HRM
             this.m_ckb_chucvu.TabIndex = 3;
             this.m_ckb_chucvu.Text = "Chức vụ";
             this.m_ckb_chucvu.UseVisualStyleBackColor = true;
+            this.m_ckb_chucvu.Visible = false;
             this.m_ckb_chucvu.CheckedChanged += new System.EventHandler(this.m_ckb_chucvu_CheckedChanged);
             // 
             // m_ckb_capbac
@@ -250,6 +251,7 @@ namespace BKI_HRM
             this.m_ckb_duan.TabIndex = 5;
             this.m_ckb_duan.Text = "Dự án";
             this.m_ckb_duan.UseVisualStyleBackColor = true;
+            this.m_ckb_duan.Visible = false;
             this.m_ckb_duan.CheckedChanged += new System.EventHandler(this.m_ckb_duan_CheckedChanged);
             // 
             // label1
@@ -260,6 +262,7 @@ namespace BKI_HRM
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 38;
             this.label1.Text = "Hiển thị:";
+            this.label1.Visible = false;
             // 
             // m_cmd_search
             // 
@@ -292,9 +295,9 @@ namespace BKI_HRM
             this.m_rdb_nhom.AutoSize = true;
             this.m_rdb_nhom.Location = new System.Drawing.Point(21, 44);
             this.m_rdb_nhom.Name = "m_rdb_nhom";
-            this.m_rdb_nhom.Size = new System.Drawing.Size(144, 17);
+            this.m_rdb_nhom.Size = new System.Drawing.Size(118, 17);
             this.m_rdb_nhom.TabIndex = 1;
-            this.m_rdb_nhom.Text = "Nhóm theo mã nhân viên";
+            this.m_rdb_nhom.Text = "Nhóm theo mã CTV";
             this.m_rdb_nhom.UseVisualStyleBackColor = true;
             this.m_rdb_nhom.CheckedChanged += new System.EventHandler(this.m_rdb_nhom_CheckedChanged);
             // 
@@ -321,6 +324,7 @@ namespace BKI_HRM
             this.m_ckb_congtac.TabIndex = 41;
             this.m_ckb_congtac.Text = "Công tác";
             this.m_ckb_congtac.UseVisualStyleBackColor = true;
+            this.m_ckb_congtac.Visible = false;
             this.m_ckb_congtac.CheckedChanged += new System.EventHandler(this.m_ckb_congtac_CheckedChanged);
             // 
             // label2
@@ -477,7 +481,7 @@ namespace BKI_HRM
 			m_obj_trans = get_trans_object(m_fg);
             m_txt_tim_kiem.Text = "";
 			load_data_2_grid();
-            m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+            m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
 		}	
 		private ITransferDataRow get_trans_object(C1.Win.C1FlexGrid.C1FlexGrid i_fg){
 			Hashtable v_htb = new Hashtable();
@@ -629,12 +633,12 @@ namespace BKI_HRM
         {
             try
             {
-                if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                 {
                     m_txt_tim_kiem.Text = "";
                     what_is_checked();
                     load_data_2_grid();
-                    m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                    m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                 }
                 else
                 {
@@ -653,12 +657,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {
@@ -678,12 +682,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {
@@ -703,12 +707,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {
@@ -750,7 +754,7 @@ namespace BKI_HRM
             try
             {
                 if (m_txt_tim_kiem.Text.Trim() == "")
-                    m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                    m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
             }
             catch (Exception v_e)
             {
@@ -774,12 +778,12 @@ namespace BKI_HRM
         {
             try
             {
-                if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                 {
                     m_txt_tim_kiem.Text = "";
                     what_is_checked();
                     load_data_2_grid();
-                    m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                    m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                 }
                 else
                 {
@@ -798,12 +802,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {
@@ -823,12 +827,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {
@@ -848,12 +852,12 @@ namespace BKI_HRM
             try
             {
                 {
-                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã nhân viên, họ đệm, tên")
+                    if (m_txt_tim_kiem.Text.Trim() == "Nhập mã cộng tác viên, họ đệm, tên")
                     {
                         m_txt_tim_kiem.Text = "";
                         what_is_checked();
                         load_data_2_grid();
-                        m_txt_tim_kiem.Text = "Nhập mã nhân viên, họ đệm, tên";
+                        m_txt_tim_kiem.Text = "Nhập mã cộng tác viên, họ đệm, tên";
                     }
                     else
                     {

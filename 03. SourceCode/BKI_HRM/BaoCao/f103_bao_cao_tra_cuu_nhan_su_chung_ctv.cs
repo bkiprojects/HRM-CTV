@@ -29,7 +29,7 @@ using System.Data;
 namespace BKI_HRM
 {
 
-    public class f103_bao_cao_tra_cuu_nhan_su : Form
+    public class f103_bao_cao_tra_cuu_nhan_su_ctv : Form
     {
         internal ImageList ImageList;
         private Panel panel1;
@@ -71,7 +71,7 @@ namespace BKI_HRM
         private C1FlexGrid m_fg;
         private IContainer components;
 
-        public f103_bao_cao_tra_cuu_nhan_su()
+        public f103_bao_cao_tra_cuu_nhan_su_ctv()
         {
             //
             // Required for Windows Form Designer support
@@ -107,8 +107,8 @@ namespace BKI_HRM
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f103_bao_cao_tra_cuu_nhan_su));
-            Checkbox_Combobox.CheckBoxProperties checkBoxProperties2 = new Checkbox_Combobox.CheckBoxProperties();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f103_bao_cao_tra_cuu_nhan_su_ctv));
+            Checkbox_Combobox.CheckBoxProperties checkBoxProperties1 = new Checkbox_Combobox.CheckBoxProperties();
             this.ImageList = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.m_cbo_gioi_tinh = new System.Windows.Forms.ComboBox();
@@ -416,6 +416,7 @@ namespace BKI_HRM
             this.m_lbl_chon_cot.Size = new System.Drawing.Size(87, 13);
             this.m_lbl_chon_cot.TabIndex = 34;
             this.m_lbl_chon_cot.Text = "Chọn cột hiển thị";
+            this.m_lbl_chon_cot.Visible = false;
             // 
             // m_rdb_thu_viec_da_het_han
             // 
@@ -457,8 +458,8 @@ namespace BKI_HRM
             // 
             // m_cbc_choose_columns
             // 
-            checkBoxProperties2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.m_cbc_choose_columns.CheckBoxProperties = checkBoxProperties2;
+            checkBoxProperties1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.m_cbc_choose_columns.CheckBoxProperties = checkBoxProperties1;
             this.m_cbc_choose_columns.DisplayMemberSingleItem = "";
             this.m_cbc_choose_columns.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.m_cbc_choose_columns.FormattingEnabled = true;
@@ -466,6 +467,7 @@ namespace BKI_HRM
             this.m_cbc_choose_columns.Name = "m_cbc_choose_columns";
             this.m_cbc_choose_columns.Size = new System.Drawing.Size(183, 21);
             this.m_cbc_choose_columns.TabIndex = 31;
+            this.m_cbc_choose_columns.Visible = false;
             // 
             // m_lbl_thong_bao
             // 
@@ -482,9 +484,9 @@ namespace BKI_HRM
             this.m_lbl_so_luong_nv.AutoSize = true;
             this.m_lbl_so_luong_nv.Location = new System.Drawing.Point(12, 87);
             this.m_lbl_so_luong_nv.Name = "m_lbl_so_luong_nv";
-            this.m_lbl_so_luong_nv.Size = new System.Drawing.Size(200, 13);
+            this.m_lbl_so_luong_nv.Size = new System.Drawing.Size(182, 13);
             this.m_lbl_so_luong_nv.TabIndex = 27;
-            this.m_lbl_so_luong_nv.Text = "Số lượng cộng tác viên trong danh sách:";
+            this.m_lbl_so_luong_nv.Text = "Số lượng nhân viên trong danh sách:";
             // 
             // m_cmd_search
             // 
@@ -583,7 +585,7 @@ namespace BKI_HRM
             this.m_fg.Styles = new C1.Win.C1FlexGrid.CellStyleCollection(resources.GetString("m_fg.Styles"));
             this.m_fg.TabIndex = 33;
             // 
-            // f103_bao_cao_tra_cuu_nhan_su
+            // f103_bao_cao_tra_cuu_nhan_su_ctv
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.CancelButton = this.m_cmd_exit;
@@ -593,10 +595,10 @@ namespace BKI_HRM
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "f103_bao_cao_tra_cuu_nhan_su";
+            this.Name = "f103_bao_cao_tra_cuu_nhan_su_ctv";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F103 - Tra cứu nhân sự chung";
-            this.Load += new System.EventHandler(this.f103_bao_cao_tra_cuu_nhan_su_Load);
+            this.Load += new System.EventHandler(this.f103_bao_cao_tra_cuu_nhan_su_ctv_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.m_grb_ngay_sinh.ResumeLayout(false);
@@ -820,7 +822,7 @@ namespace BKI_HRM
         private bool load_invisible = true;
         DS_V_DM_DU_LIEU_NHAN_VIEN m_ds = new DS_V_DM_DU_LIEU_NHAN_VIEN();
         US_V_DM_DU_LIEU_NHAN_VIEN m_us = new US_V_DM_DU_LIEU_NHAN_VIEN();
-        private const String m_str_goi_y_tim_kiem = "Nhập vào Mã CTV, Họ tên để tìm kiếm";
+        private const String m_str_goi_y_tim_kiem = "Nhập vào Mã nhân viên, Họ tên để tìm kiếm";
         private IList<KeyValuePair<string, string>> m_list_key_value = new List<KeyValuePair<string, string>>();
         private string m_str_search = "";
         private string m_str_ma_nhan_vien = "";
@@ -1029,7 +1031,7 @@ namespace BKI_HRM
                         , CAppContext_201.getCurrentIDPhapnhan()
                         , ref v_dc_so_luong_nv);
 
-                    m_lbl_so_luong_nv.Text = "Số lượng cộng tác viên đang nghỉ: ";
+                    m_lbl_so_luong_nv.Text = "Số lượng nhân viên đang nghỉ: ";
                     m_lbl_so_luong_nv.Text += v_dc_so_luong_nv.ToString();
 
                     m_us.FillDatasetSearch(m_ds
@@ -1073,7 +1075,7 @@ namespace BKI_HRM
                         , CAppContext_201.getCurrentIDPhapnhan()
                         , ref v_dc_so_luong_nv);
 
-                    m_lbl_so_luong_nv.Text = "Số lượng cộng tác viên thử việc sắp hết hạn (còn <= 7 ngày): ";
+                    m_lbl_so_luong_nv.Text = "Số lượng nhân viên thử việc sắp hết hạn (còn <= 7 ngày): ";
                     m_lbl_so_luong_nv.Text += v_dc_so_luong_nv.ToString();
 
                     m_us.FillDatasetSearch(m_ds
@@ -1117,7 +1119,7 @@ namespace BKI_HRM
                         , CAppContext_201.getCurrentIDPhapnhan()
                         , ref v_dc_so_luong_nv);
 
-                    m_lbl_so_luong_nv.Text = "Số lượng cộng tác viên đã hết hạn: ";
+                    m_lbl_so_luong_nv.Text = "Số lượng nhân viên đã hết hạn: ";
                     m_lbl_so_luong_nv.Text += v_dc_so_luong_nv.ToString();
 
                     // search thử việc đã hết hạn
@@ -1163,7 +1165,7 @@ namespace BKI_HRM
                     , "hiện tại"
                     , CAppContext_201.getCurrentIDPhapnhan()
                     , ref v_dc_so_luong_nv);
-                m_lbl_so_luong_nv.Text = "Số lượng cộng tác viên hiện tại: ";
+                m_lbl_so_luong_nv.Text = "Số lượng nhân viên hiện tại: ";
                 m_lbl_so_luong_nv.Text += v_dc_so_luong_nv.ToString();
                 m_list_key_value = get_list_key_value(m_txt_search.Text);
                 refresh_key_value();
@@ -1666,7 +1668,7 @@ namespace BKI_HRM
             }
         }
 
-        private void f103_bao_cao_tra_cuu_nhan_su_Load(object sender, EventArgs e)
+        private void f103_bao_cao_tra_cuu_nhan_su_ctv_Load(object sender, EventArgs e)
         {
             try
             {

@@ -250,7 +250,7 @@ namespace BKI_HRM
             this.m_txt_tim_kiem.Name = "m_txt_tim_kiem";
             this.m_txt_tim_kiem.Size = new System.Drawing.Size(262, 20);
             this.m_txt_tim_kiem.TabIndex = 31;
-            this.m_txt_tim_kiem.Text = "Nhập Mã nhân viên, Họ đệm, Tên, Mã hợp đồng";
+            this.m_txt_tim_kiem.Text = "Nhập Mã cộng tác viên, Họ đệm, Tên, Mã hợp đồng";
             this.m_txt_tim_kiem.MouseClick += new System.Windows.Forms.MouseEventHandler(this.m_txt_tim_kiem_MouseClick);
             this.m_txt_tim_kiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.m_txt_tim_kiem_KeyDown);
             this.m_txt_tim_kiem.Leave += new System.EventHandler(this.m_txt_tim_kiem_Leave);
@@ -552,7 +552,7 @@ namespace BKI_HRM
         DS_V_GD_HOP_DONG_LAO_DONG m_ds = new DS_V_GD_HOP_DONG_LAO_DONG();
         US_V_GD_HOP_DONG_LAO_DONG m_us = new US_V_GD_HOP_DONG_LAO_DONG();
         private int m_i_form_mode;
-        private const string M_STR_SUGGESTION = "Nhập Mã nhân viên, Họ đệm, Tên, Mã hợp đồng";
+        private const string M_STR_SUGGESTION = "Nhập Mã cộng tác viên, Họ đệm, Tên, Mã hợp đồng";
         #endregion
 
         #region Private Methods
@@ -580,7 +580,7 @@ namespace BKI_HRM
 
 
             v_dt.Rows.Add(-1, "-- Không nhóm --");
-            v_dt.Rows.Add((int)e_col_Number.MA_NV, "Mã nhân viên");
+            v_dt.Rows.Add((int)e_col_Number.MA_NV, "Mã cộng tác viên");
             v_dt.Rows.Add((int)e_col_Number.LOAI_HOP_DONG, "Loại hợp đồng");
             v_dt.Rows.Add((int)e_col_Number.NGAY_KY_HOP_DONG, "Ngày ký hợp đồng");
             v_dt.Rows.Add((int)e_col_Number.NGAY_CO_HIEU_LUC, "Ngày có hiệu lực");

@@ -199,6 +199,9 @@
     <Compile Include="BaoCao\f103_bao_cao_tra_cuu_nhan_su_chung.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="BaoCao\f103_bao_cao_tra_cuu_nhan_su_chung_ctv.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BaoCao\f104_bao_cao_nhan_su_theo_phong_ban.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -583,6 +586,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f103_bao_cao_tra_cuu_nhan_su_chung.resx">
       <DependentUpon>f103_bao_cao_tra_cuu_nhan_su_chung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCao\f103_bao_cao_tra_cuu_nhan_su_chung_ctv.resx">
+      <DependentUpon>f103_bao_cao_tra_cuu_nhan_su_chung_ctv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BaoCao\f104_bao_cao_nhan_su_theo_phong_ban.resx">
       <DependentUpon>f104_bao_cao_nhan_su_theo_phong_ban.cs</DependentUpon>
