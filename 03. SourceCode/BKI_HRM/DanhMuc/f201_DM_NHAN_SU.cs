@@ -42,10 +42,10 @@ namespace BKI_HRM
     public class f201_dm_nhan_su : System.Windows.Forms.Form
     {
         internal System.Windows.Forms.ImageList ImageList;
-        private Label m_lbl;
+        private Label m_lbl_tt_ct_ctv;
         private Label m_lbl_ho_ten;
         private Label m_lbl_ma_nhan_vien;
-        private Label m_lbl2;
+        private Label m_lbl_ma_ctv;
         private OpenFileDialog m_ofd_chon_anh;
         private SaveFileDialog m_sfd_save_cv;
         private Label m_lbl_headcount;
@@ -218,10 +218,10 @@ namespace BKI_HRM
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f201_dm_nhan_su));
             this.ImageList = new System.Windows.Forms.ImageList(this.components);
-            this.m_lbl = new System.Windows.Forms.Label();
+            this.m_lbl_tt_ct_ctv = new System.Windows.Forms.Label();
             this.m_lbl_ho_ten = new System.Windows.Forms.Label();
             this.m_lbl_ma_nhan_vien = new System.Windows.Forms.Label();
-            this.m_lbl2 = new System.Windows.Forms.Label();
+            this.m_lbl_ma_ctv = new System.Windows.Forms.Label();
             this.m_ofd_chon_anh = new System.Windows.Forms.OpenFileDialog();
             this.m_sfd_save_cv = new System.Windows.Forms.SaveFileDialog();
             this.m_lbl_headcount = new System.Windows.Forms.Label();
@@ -417,14 +417,14 @@ namespace BKI_HRM
             this.ImageList.Images.SetKeyName(20, "");
             this.ImageList.Images.SetKeyName(21, "");
             // 
-            // m_lbl
+            // m_lbl_tt_ct_ctv
             // 
-            this.m_lbl.AutoSize = true;
-            this.m_lbl.Location = new System.Drawing.Point(3, 4);
-            this.m_lbl.Name = "m_lbl";
-            this.m_lbl.Size = new System.Drawing.Size(113, 13);
-            this.m_lbl.TabIndex = 25;
-            this.m_lbl.Text = "Thông tin chi tiết CTV:";
+            this.m_lbl_tt_ct_ctv.AutoSize = true;
+            this.m_lbl_tt_ct_ctv.Location = new System.Drawing.Point(3, 4);
+            this.m_lbl_tt_ct_ctv.Name = "m_lbl_tt_ct_ctv";
+            this.m_lbl_tt_ct_ctv.Size = new System.Drawing.Size(113, 13);
+            this.m_lbl_tt_ct_ctv.TabIndex = 25;
+            this.m_lbl_tt_ct_ctv.Text = "Thông tin chi tiết CTV:";
             // 
             // m_lbl_ho_ten
             // 
@@ -444,14 +444,14 @@ namespace BKI_HRM
             this.m_lbl_ma_nhan_vien.TabIndex = 27;
             this.m_lbl_ma_nhan_vien.Text = "label4";
             // 
-            // m_lbl2
+            // m_lbl_ma_ctv
             // 
-            this.m_lbl2.AutoSize = true;
-            this.m_lbl2.Location = new System.Drawing.Point(395, 6);
-            this.m_lbl2.Name = "m_lbl2";
-            this.m_lbl2.Size = new System.Drawing.Size(49, 13);
-            this.m_lbl2.TabIndex = 28;
-            this.m_lbl2.Text = "Mã CTV:";
+            this.m_lbl_ma_ctv.AutoSize = true;
+            this.m_lbl_ma_ctv.Location = new System.Drawing.Point(395, 6);
+            this.m_lbl_ma_ctv.Name = "m_lbl_ma_ctv";
+            this.m_lbl_ma_ctv.Size = new System.Drawing.Size(49, 13);
+            this.m_lbl_ma_ctv.TabIndex = 28;
+            this.m_lbl_ma_ctv.Text = "Mã CTV:";
             // 
             // m_ofd_chon_anh
             // 
@@ -1771,11 +1771,11 @@ namespace BKI_HRM
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.m_lbl);
+            this.panel3.Controls.Add(this.m_lbl_tt_ct_ctv);
             this.panel3.Controls.Add(this.m_lbl_ho_ten);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.m_lbl_ma_nhan_vien);
-            this.panel3.Controls.Add(this.m_lbl2);
+            this.panel3.Controls.Add(this.m_lbl_ma_ctv);
             this.panel3.Controls.Add(this.m_lbl_headcount);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 274);
@@ -1972,6 +1972,7 @@ namespace BKI_HRM
             this.m_cmd_print_cv.Size = new System.Drawing.Size(87, 28);
             this.m_cmd_print_cv.TabIndex = 4;
             this.m_cmd_print_cv.Text = "Tạo CV";
+            this.m_cmd_print_cv.Visible = false;
             // 
             // m_cmd_delete
             // 
@@ -2003,6 +2004,7 @@ namespace BKI_HRM
             this.m_cmd_exit.Size = new System.Drawing.Size(100, 28);
             this.m_cmd_exit.TabIndex = 32;
             this.m_cmd_exit.Text = "Thoát (Esc)";
+            this.m_cmd_exit.Visible = false;
             // 
             // f201_dm_nhan_su
             // 
@@ -2344,9 +2346,9 @@ namespace BKI_HRM
                 case DataEntryFormMode.SelectDataState:
                     m_cmd_chon_nhan_vien.Visible = true;
                     m_cmd_chon_nhan_vien.Enabled = true;
-                    m_cmd_insert.Visible = false;
-                    m_cmd_update.Visible = false;
-                    m_cmd_delete.Visible = false;
+                    m_cmd_insert.Visible = true;
+                    m_cmd_update.Visible = true;
+                    m_cmd_delete.Visible = true;
                     m_cmd_import_excel.Visible = false;
                     break;
                 default:
