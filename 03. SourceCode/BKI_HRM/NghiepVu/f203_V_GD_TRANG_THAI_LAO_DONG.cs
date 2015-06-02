@@ -250,7 +250,7 @@ namespace BKI_HRM
             this.m_txt_tim_kiem.Name = "m_txt_tim_kiem";
             this.m_txt_tim_kiem.Size = new System.Drawing.Size(430, 20);
             this.m_txt_tim_kiem.TabIndex = 22;
-            this.m_txt_tim_kiem.Text = "Nhập mã nhân viên hoặc họ tên để tìm kiếm";
+            this.m_txt_tim_kiem.Text = "Nhập mã cộng tác viên hoặc họ tên để tìm kiếm";
             this.m_txt_tim_kiem.MouseClick += new System.Windows.Forms.MouseEventHandler(this.m_txt_tim_kiem_MouseClick);
             this.m_txt_tim_kiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.m_txt_tim_kiem_KeyDown);
             this.m_txt_tim_kiem.Leave += new System.EventHandler(this.m_txt_tim_kiem_Leave);
