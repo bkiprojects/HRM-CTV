@@ -357,6 +357,7 @@ namespace BKI_HRM
             this.m_cmd_search = new SIS.Controls.Button.SiSButton();
             this.m_lbl_tim_kiem = new System.Windows.Forms.Label();
             this.m_pnl_out_place_dm = new System.Windows.Forms.Panel();
+            this.siSButton1 = new SIS.Controls.Button.SiSButton();
             this.m_cmd_import_excel = new SIS.Controls.Button.SiSButton();
             this.m_cmd_chon_phap_nhan = new SIS.Controls.Button.SiSButton();
             this.m_cmd_chon_nhan_vien = new SIS.Controls.Button.SiSButton();
@@ -365,7 +366,6 @@ namespace BKI_HRM
             this.m_cmd_print_cv = new SIS.Controls.Button.SiSButton();
             this.m_cmd_delete = new SIS.Controls.Button.SiSButton();
             this.m_cmd_exit = new SIS.Controls.Button.SiSButton();
-            this.siSButton1 = new SIS.Controls.Button.SiSButton();
             this.m_tpg_thong_tin_khac.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -422,9 +422,9 @@ namespace BKI_HRM
             this.m_lbl.AutoSize = true;
             this.m_lbl.Location = new System.Drawing.Point(3, 4);
             this.m_lbl.Name = "m_lbl";
-            this.m_lbl.Size = new System.Drawing.Size(139, 13);
+            this.m_lbl.Size = new System.Drawing.Size(113, 13);
             this.m_lbl.TabIndex = 25;
-            this.m_lbl.Text = "Thông tin chi tiết nhân viên:";
+            this.m_lbl.Text = "Thông tin chi tiết CTV:";
             // 
             // m_lbl_ho_ten
             // 
@@ -449,9 +449,9 @@ namespace BKI_HRM
             this.m_lbl2.AutoSize = true;
             this.m_lbl2.Location = new System.Drawing.Point(395, 6);
             this.m_lbl2.Name = "m_lbl2";
-            this.m_lbl2.Size = new System.Drawing.Size(75, 13);
+            this.m_lbl2.Size = new System.Drawing.Size(49, 13);
             this.m_lbl2.TabIndex = 28;
-            this.m_lbl2.Text = "Mã nhân viên:";
+            this.m_lbl2.Text = "Mã CTV:";
             // 
             // m_ofd_chon_anh
             // 
@@ -1824,7 +1824,7 @@ namespace BKI_HRM
             this.m_txt_tim_kiem.Name = "m_txt_tim_kiem";
             this.m_txt_tim_kiem.Size = new System.Drawing.Size(438, 20);
             this.m_txt_tim_kiem.TabIndex = 1;
-            this.m_txt_tim_kiem.Text = "Nhập vào thông tin muốn tìm kiếm: mã nhân viên, họ tên, ...";
+            this.m_txt_tim_kiem.Text = "Nhập vào thông tin muốn tìm kiếm: mã ctv, họ tên, ...";
             // 
             // m_cmd_search
             // 
@@ -1866,6 +1866,21 @@ namespace BKI_HRM
             this.m_pnl_out_place_dm.Padding = new System.Windows.Forms.Padding(4);
             this.m_pnl_out_place_dm.Size = new System.Drawing.Size(1280, 36);
             this.m_pnl_out_place_dm.TabIndex = 19;
+            // 
+            // siSButton1
+            // 
+            this.siSButton1.AdjustImageLocation = new System.Drawing.Point(0, 0);
+            this.siSButton1.BtnShape = SIS.Controls.Button.emunType.BtnShape.Rectangle;
+            this.siSButton1.BtnStyle = SIS.Controls.Button.emunType.XPStyle.Default;
+            this.siSButton1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.siSButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.siSButton1.ImageIndex = 2;
+            this.siSButton1.ImageList = this.ImageList;
+            this.siSButton1.Location = new System.Drawing.Point(455, 4);
+            this.siSButton1.Name = "siSButton1";
+            this.siSButton1.Size = new System.Drawing.Size(119, 28);
+            this.siSButton1.TabIndex = 38;
+            this.siSButton1.Text = "&Thêm nhân viên";
             // 
             // m_cmd_import_excel
             // 
@@ -1989,21 +2004,6 @@ namespace BKI_HRM
             this.m_cmd_exit.TabIndex = 32;
             this.m_cmd_exit.Text = "Thoát (Esc)";
             // 
-            // siSButton1
-            // 
-            this.siSButton1.AdjustImageLocation = new System.Drawing.Point(0, 0);
-            this.siSButton1.BtnShape = SIS.Controls.Button.emunType.BtnShape.Rectangle;
-            this.siSButton1.BtnStyle = SIS.Controls.Button.emunType.XPStyle.Default;
-            this.siSButton1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.siSButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.siSButton1.ImageIndex = 2;
-            this.siSButton1.ImageList = this.ImageList;
-            this.siSButton1.Location = new System.Drawing.Point(455, 4);
-            this.siSButton1.Name = "siSButton1";
-            this.siSButton1.Size = new System.Drawing.Size(119, 28);
-            this.siSButton1.TabIndex = 38;
-            this.siSButton1.Text = "&Thêm nhân viên";
-            // 
             // f201_dm_nhan_su
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -2015,7 +2015,7 @@ namespace BKI_HRM
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "f201_dm_nhan_su";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F201 - Quản lý hồ sơ nhân sự";
+            this.Text = "F201 - Quản lý hồ sơ CTV";
             this.Load += new System.EventHandler(this.f201_DM_NHAN_SU_Load);
             this.m_tpg_thong_tin_khac.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -2260,7 +2260,7 @@ namespace BKI_HRM
         DS_V_GD_QUA_TRINH_LAM_VIEC m_ds_qua_trinh_lam_viec = new DS_V_GD_QUA_TRINH_LAM_VIEC();
         US_GD_QUA_TRINH_CONG_TAC m_us_qua_trinh_cong_tac = new US_GD_QUA_TRINH_CONG_TAC();
         DS_GD_QUA_TRINH_CONG_TAC m_ds_qua_trinh_cong_tac = new DS_GD_QUA_TRINH_CONG_TAC();
-        string m_str_message_tim_kiem = "Nhập vào thông tin muốn tìm kiếm: mã nhân viên, họ tên, ...";
+        string m_str_message_tim_kiem = "Nhập vào thông tin muốn tìm kiếm: mã ctv, họ tên, ...";
         string m_str_trang_thai_cmd = "creat";
         string m_str_lua_chon = "";
         private string m_str_directory_to = ConfigurationSettings.AppSettings["DESTINATION_NAME"];

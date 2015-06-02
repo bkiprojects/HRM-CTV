@@ -410,7 +410,7 @@
             // 
             // m_cmd_ho_so_nhan_su
             // 
-            this.m_cmd_ho_so_nhan_su.Caption = "Hồ sơ nhân sự";
+            this.m_cmd_ho_so_nhan_su.Caption = "Hồ sơ CTV";
             this.m_cmd_ho_so_nhan_su.Glyph = global::BKI_HRM.Properties.Resources._1413455147_20298;
             this.m_cmd_ho_so_nhan_su.Id = 40;
             this.m_cmd_ho_so_nhan_su.Name = "m_cmd_ho_so_nhan_su";
@@ -728,7 +728,6 @@
             this.m_cmd_bc_ttld_ctv.Caption = "barButtonItem1";
             this.m_cmd_bc_ttld_ctv.Id = 84;
             this.m_cmd_bc_ttld_ctv.Name = "m_cmd_bc_ttld_ctv";
-            //this.m_cmd_bc_ttld_ctv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.m_cmd_bc_ttld_ctv_ItemClick);
             // 
             // ribbonPage1
             // 

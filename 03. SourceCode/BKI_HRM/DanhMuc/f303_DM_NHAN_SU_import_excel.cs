@@ -345,7 +345,7 @@ namespace BKI_HRM
             this.m_cmd_save_data.Name = "m_cmd_save_data";
             this.m_cmd_save_data.Size = new System.Drawing.Size(153, 28);
             this.m_cmd_save_data.TabIndex = 39;
-            this.m_cmd_save_data.Text = "Lưu danh sách nhân sự";
+            this.m_cmd_save_data.Text = "Lưu danh sách CTV";
             // 
             // m_cmd_chon_file_excel
             // 
@@ -405,7 +405,7 @@ namespace BKI_HRM
             this.m_lbl_header.Name = "m_lbl_header";
             this.m_lbl_header.Size = new System.Drawing.Size(1081, 37);
             this.m_lbl_header.TabIndex = 25;
-            this.m_lbl_header.Text = "IMPORT EXCEL DANH MỤC NHÂN SỰ";
+            this.m_lbl_header.Text = "IMPORT EXCEL DANH MỤC CTV";
             this.m_lbl_header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // m_ofd_exel_file
@@ -445,7 +445,7 @@ namespace BKI_HRM
             this.Controls.Add(this.m_pnl_out_place_dm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "f303_DM_NHAN_SU_import_excel";
-            this.Text = "F303 - Import Excel Danh Mục Nhân Sự";
+            this.Text = "F303 - Import Excel danh mục CTV";
             this.Load += new System.EventHandler(this.f303_DM_NHAN_SU_import_excel_Load);
             this.m_pnl_out_place_dm.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
