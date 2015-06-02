@@ -98,9 +98,8 @@ namespace BKI_HRM
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(f701_v_hop_dong_lao_dong));
-            this.ImageList = new System.Windows.Forms.ImageList(this.components);
+            this.ImageList = new System.Windows.Forms.ImageList();
             this.m_pnl_out_place_dm = new System.Windows.Forms.Panel();
             this.m_lbl_phim_tat = new System.Windows.Forms.Label();
             this.m_cmd_insert = new SIS.Controls.Button.SiSButton();
@@ -278,7 +277,7 @@ namespace BKI_HRM
             this.m_txt_tim_kiem.Name = "m_txt_tim_kiem";
             this.m_txt_tim_kiem.Size = new System.Drawing.Size(252, 20);
             this.m_txt_tim_kiem.TabIndex = 28;
-            this.m_txt_tim_kiem.Text = "Nhập Mã nhân viên, Họ đệm, Tên, Mã hợp đồng";
+            this.m_txt_tim_kiem.Text = "Nhập Mã CTV, Họ đệm, Tên, Mã hợp đồng";
             this.m_txt_tim_kiem.MouseClick += new System.Windows.Forms.MouseEventHandler(this.m_txt_tim_kiem_MouseClick);
             this.m_txt_tim_kiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.m_txt_tim_kiem_KeyDown_1);
             this.m_txt_tim_kiem.Leave += new System.EventHandler(this.m_txt_tim_kiem_Leave);
@@ -504,7 +503,7 @@ namespace BKI_HRM
         US_V_GD_HOP_DONG_LAO_DONG m_us = new US_V_GD_HOP_DONG_LAO_DONG();
         private US_GD_HOP_DONG m_us_gd_hop_dong;
 
-        private string m_str_suggest = "Nhập Mã nhân viên, Họ đệm, Tên, Mã hợp đồng";
+        private string m_str_suggest = "Nhập Mã CTV, Họ đệm, Tên, Mã hợp đồng";
         public static string m_str_ma_hop_dong;
         #endregion
 
